@@ -1,5 +1,4 @@
 require "/data/Ruby/Euler_methods.rb"
-require "matrix.rb"
 include Generic_methods
 
 def ej_01
