@@ -125,6 +125,7 @@ def ej_11
   greatest_product
 end
 
+# this one takes too long, have to check.
 def ej_12
   n = 1
   result = 1
