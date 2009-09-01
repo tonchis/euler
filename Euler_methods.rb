@@ -87,6 +87,7 @@ class Integer
     self.to_s == self.to_s.reverse
   end
 
+  # this method sucks
   def next_pandigital
     n = self + 1
     until n.pandigital?
