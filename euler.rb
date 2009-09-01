@@ -316,7 +316,7 @@ end
 
 def ej_18
   # First I have to check ej_12, then finish this one
-  true
+  return true
 end
 
 def ej_20
