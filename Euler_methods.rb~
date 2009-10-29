@@ -81,9 +81,7 @@ class Integer
         result[i] += 1
       end
     end
-    acum = 1
-    result.each_key {|i| acum *= i**result[i] }
-    raise RuntimeError, "result isn't factorization" if acum != self
+    raise RuntimeError, "result isn't factorization" if result.each_key {|i, acum| acum *= i**result[i] } != self
     result
   end
 

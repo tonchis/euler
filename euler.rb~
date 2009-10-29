@@ -1,4 +1,4 @@
-require "/data/github/euler/Euler_methods.rb"
+require "/data/Ruby/Euler_methods.rb"
 include Generic_methods
 
 def ex_01
